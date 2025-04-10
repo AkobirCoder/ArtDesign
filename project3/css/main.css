@@ -1,3 +1,4 @@
+/* Root styles */
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -25,52 +26,6 @@
     100% {
       background-position: 0% 100%;
     }
-}
-
-/* Global styles */
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: var(--Quicksand);
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    line-height: 1.4;
-    color: var(--dark);
-}
-
-img {
-    width: 100%;
-    display: block;
-}
-
-.container {
-    max-width: 1440px;
-    margin: 0px auto;
-    padding: 0rem 1.2rem;
-}
-
-.sectionInfo {
-    display: flex;
-    padding: 1rem 0rem;
-    align-items: center;
-    flex-direction: column;
-}
-
-.sectionInfo .sectionTitle {
-    font-size: 2.5rem;
-    text-transform: capitalize;
-    font-family: var(--Playfair);
-}
-
-.sectionInfo .sectionSubtitle {
-    padding: 0.6rem 0rem;
-    text-transform: uppercase;
 }
 
 /* Header section styles */
